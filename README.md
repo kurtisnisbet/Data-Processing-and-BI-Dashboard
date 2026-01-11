@@ -1,4 +1,4 @@
-# Global Layoffs Analysis (2020-2024)
+# Data Processing, Exploration, and Dashboard Visualisation (Global Layoffs Analysis)
 
 This project analyses global employee layoffs from 2020 to 2024, showcasing advanced SQL skills for data cleaning and exploration, complemented by Power BI visualisations for insights. The dataset includes over 1,500 companies across 31 industries, highlighting layoff trends by company, industry, geography, and time. The analysis contextualises layoff patterns within global economic events and demonstrates technical proficiency in data analytics.
 
