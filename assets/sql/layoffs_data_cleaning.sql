@@ -16,7 +16,7 @@ FROM layoffs_data;
 -- 4. Remove unncessary columns and rows
 	-- There are instances when you should and shouldn't do this. 
 
--- Creating coopy of raw dataset.
+-- Creating copy of raw dataset.
 CREATE TABLE layoffs_staging
 LIKE layoffs_data;
 
