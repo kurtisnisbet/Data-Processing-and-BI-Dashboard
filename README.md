@@ -80,7 +80,7 @@ My approach to data cleaning follows the steps of:
 
 - **Handled Null Values**
 
-  A self-join on company name was used to populate missing industry values where another row for the same company had the industry filled in. Where *both* industry and company were null, rows were removed as they could not contribute to any meaningful EDA.
+  A self-join on company name was used to populate missing industry values where another row for the same company had the industry filled in. Where both industry and company were null, rows were removed as they could not contribute to any meaningful EDA.
 
   ```sql
   UPDATE layoffs_staging2 t1
@@ -243,7 +243,7 @@ Layoffs spiked sharply in 2022–2023, with these two years accounting for 68.9%
 Retail and Consumer industries were the most affected, together comprising nearly 25% of total layoffs. Technology companies drove the largest individual layoffs by volume, with Amazon (27,840), Google (13,472), and Meta among the top contributors.
 
 **3. Geographic Insights:**
-The United States accounted for 69.8% of all recorded layoffs — a concentration driven by the scale of US-headquartered tech and retail firms. India (47,127) and Germany (25,345) were the next most affected countries.
+The United States accounted for 69.8% of all recorded layoffs, a concentration driven by the scale of US-headquartered tech and retail firms. India (47,127) and Germany (25,345) were the next most affected countries.
 
 **4. Funding Stage:**
 Post-IPO companies recorded the highest absolute layoff volumes (289,644), reflecting their larger workforces. However, the downturn was broad-based, with Series A–C companies collectively contributing over 59,000 layoffs across hundreds of firms.
